@@ -1,5 +1,5 @@
 import { User } from "../models/user";
-import * as userData from "../data/users.json";
+import * as userData from "../data/users.js";
 import { UserDTO } from "../data/models/user";
 import { MapUserDtoToUser } from "../mappers/userMapper";
 class UserService {

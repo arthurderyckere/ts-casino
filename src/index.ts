@@ -14,6 +14,5 @@ function init() {
         localCasino.gamble(user.accountId, user.balance / 2);
         console.log("Current balance: " + localCasino.getBalanceByAccountId(user.accountId));
     }
-
 }
 init();
